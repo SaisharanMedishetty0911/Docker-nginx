@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-ADD /Users/saisharanmedishetty/docker/index.html /usr/share/nginx/html/
+ADD https://raw.githubusercontent.com/SaisharanMedishetty0911/Docker-nginx/master/index.html /usr/share/nginx/html/
 
 RUN chmod +r /usr/share/nginx/html/index.html
 
